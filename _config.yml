@@ -1,7 +1,6 @@
 # External gems
 # See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
 gems:
-  - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
   - jekyll-paginate
 
@@ -21,7 +20,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "aaronbamford.co.uk" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
-logo: "/assets/logo.png"
+#logo: "/assets/1489258919_home.svg"
 
 # Build settings
 markdown: kramdown
