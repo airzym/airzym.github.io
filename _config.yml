@@ -19,7 +19,7 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "aaronbamford.co.uk" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
+cover: "/assets/1.jpg"
 #logo: "/assets/1489258919_home.svg"
 
 # Build settings
