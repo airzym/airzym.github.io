@@ -13,7 +13,7 @@ subtitle: "Writer of Code, Engineer of Software, Driver of Cars"
 #email: blcentra@gmail.com
 name: Aaron Bamford
 description: >
-  A website for me to document my adventures as a software engineer.
+  Somewhere for me to document my adventures in life as a person and a software engineer.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -26,18 +26,9 @@ cover: "/assets/1.jpg"
 markdown: kramdown
 paginate: 10
 paginate_path: "/page:num/"
-inter_post_navigation: false
+inter_post_navigation: true
 highlightjs_theme: "monokai-sublime"
 
-# Archive settings (see https://github.com/jekyll/jekyll-archives/)
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
 
 # Disqus comments
 # disqus_shortname: bencentra
