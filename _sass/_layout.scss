@@ -43,6 +43,7 @@ pre code.hljs {
 	$divider-color: $light-gray;
   display: block;
   width: 50%;
+	margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
   border-top: 1px solid $divider-color;
@@ -201,6 +202,7 @@ pre code.hljs {
 /*
 *	Body
 */
+
 .page-content {
 	.wrapper {
 		@include outer-container;
@@ -360,8 +362,10 @@ pre code.hljs {
 		}
 		.profile {
 			max-width: 320px;
+			width: auto;
 			margin: auto;
 			padding-bottom: 0.5em;
+			border-radius: 50%;
  		}
 	}
 }
