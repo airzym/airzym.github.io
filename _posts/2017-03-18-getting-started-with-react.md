@@ -164,7 +164,7 @@ webpack
 ```
 This should create `bundle.js` in `/dist`. Go ahead and open `index.html` in your browser and you should see "Hello World!".
 
-<img src="/assets/2015-03-18-getting-started-with-react/hello-world.png" title="Hello World!">
+<img src="/assets/2017-03-18-getting-started-with-react/hello-world.png" title="Hello World!">
 
 Thats all you'll need to get started to develop your ReactJS app.
 
