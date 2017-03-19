@@ -74,6 +74,13 @@ social:
     desc: Fork me on GitHub
     share: false
 
+  - name: StackOverflow
+    icon: stack-overflow
+    username: aaron-bamford
+    url: http://stackoverflow.com/users/5242568/aaron-bamford
+    desc: Find me on StackOverflow
+    share: false
+
 # Social sharing protocols
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
