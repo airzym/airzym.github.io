@@ -130,7 +130,7 @@ class NoteForm extends Component{
       <form>
         <div>
           <label>Title:</label>
-          <input type="text" value={this.state.value}/>
+          <input type="text" value={this.state.title}/>
         </div>
         <div>
           <label>Note:</label>
