@@ -1,13 +1,46 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: page
 ---
+![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<img src="https://www.gravatar.com/avatar/d16b6ce802585bf42f4797768d81b335?s=200" title="Profile Picture" class="profile">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-Hello, I am a Software Engineer from the UK. I'm based in the Northwest, near Manchester.
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-Most of my teenage years were spent riding bikes, watching cartoons, and playing about on computers. My love computers went on leading me to University where I completed a Computer Science degree at the Manchester Metropolitan University with a first class honours degree. I still enjoy working on computers as a hobby, along with my MX-5, cooking and eating out.
+<h2>Skills</h2>
 
-The languages I currently use on a regular basis and enjoy working with the most are C# and Javascript. Recently I am enjoying making SPA using ReactJS, as well as creating ASP.NET Core applications and Docker. I'd also like to get to grips with some functional programming.
+<ul class="skill-list">
+	<li>HTML - Jade - Haml - Erb</li>
+	<li>Responsive (Mobile First)</li>
+	<li>CSS (Stylus, Sass, Less)</li>
+	<li>Css Frameworks (Bootstrap, Foundation)</li>
+	<li>Javascript (Design Patterns, Testes)</li>
+	<li>NodeJS</li>
+	<li>AngularJS - ReactJS</li>
+	<li>Grunt - Gulp - Yeoman</li>
+	<li>Git</li>
+	<li>PHP</li>
+	<li>Python</li>
+	<li>MySQL - MongoDB</li>
+	<li>Scrum and Kanban</li>
+	<li>TDD e Continuous Integration</li>
+</ul>
+
+<h2>Projects</h2>
+
+<ul>
+	<li><a href="https://github.com/">Lorem Lorem</a></li>
+	<li><a href="https://github.com/">Ipsum Dolor</a></li>
+	<li><a href="https://github.com/">Dolor Lorem</a></li>
+</ul>
