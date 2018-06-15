@@ -1,97 +1,103 @@
-# External gems
-# See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
+# main text of home
+name: Aaron Bamford
+bio: Full stack Software Engineer 
+
+# twitter summary info
+description: 
+
+# if it's an external image, update below for true
+# better with square images
+external-image: true
+picture: https://www.gravatar.com/avatar/d16b6ce802585bf42f4797768d81b335?s=200
+
+url: aaronbamford.co.uk
+
+permalink: /:title/
+
+markdown: kramdown
+highlighter: rouge
+
+# To enable google analytics, supply your token below
+analytics-google: 'UA-93915574-1'
+
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
+
+# if you don't want comments in your posts, set to false
+disqus: false
+
+# if you don't have any of social below, comment the line
+# facebook: myfacebook
+twitter: airzy91
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+# linkedin: mylinkedin
+# youtube: myyoutube
+# spotify: myspotify
+github: airzy91
+stackoverflow: 5242568/aaron-bamford
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: myvimeo
+# email: myemail@gmail.com
+
+authors:
+    johndoe:
+        name: Aaron Bamford
+        bio: Full stack Software Engineer
+        external-image: true
+        picture: https://www.gravatar.com/avatar/d16b6ce802585bf42f4797768d81b335?s=200
+        twitter: airzy91
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+# projects: true
+
+# if you don't need "about" or "blog", comment them out below
+about: false
+blog: false
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: false
+
+# related posts inside a post?
+related: false
+
+# show next & prev links in blog post?
+blog-nav-links: false
+
+# show author block at the end of a post ?
+show-author: true
+
+# do you want some animations?
+animation: true
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
 gems:
+  - jemoji
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-gist
   - jekyll-paginate
 
-exclude:
-  - "/vendor/"
-
-# Site settings
-title: Aaron Bamford
-subtitle: "Writer of Code, Engineer of Software, Driver of Cars"
-#email: blcentra@gmail.com
-name: Aaron Bamford
-description: >
-  Somewhere for me to document my adventures in life as a person and a software engineer.
-# Base URL of site (i.e. /blog). It should always start with a slash,
-# and never end with a slash. Set it to a blank value if hosting at the
-# root of your server.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "aaronbamford.co.uk" # the base hostname & protocol for your site
-cover: "/assets/1.jpg"
-#logo: "/assets/1489258919_home.svg"
-
-# Build settings
-markdown: kramdown
-paginate: 10
-paginate_path: "/page:num/"
-inter_post_navigation: true
-highlightjs_theme: "monokai-sublime"
-
-
-# Disqus comments
-# disqus_shortname: bencentra
-
-# Google analytics
-ga_tracking_id: "UA-93915574-1"
-
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
-
-# Social icons and sharing options
-#
-# Social settings are used in two places:
-# * In the footer, as links to your personal profiles
-# * After each blog post for sharing widgets
-#
-# Example:
-#
-# social:
-#   - name: Twitter                         # Name of the service
-#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-#     username: "@TheBenCentra"             # (User) Name to display in the footer link
-#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
-#     desc: Follow me on Twitter            # Description to display as link title, etc
-#     share: true                           # Include in the "Share" section of posts
-social:
-  - name: Twitter
-    icon: twitter
-    username: airzy91
-    url: https://twitter.com/airzy91
-    desc: Follow me on Twitter
-    share: false
-
-  - name: GitHub
-    icon: github
-    username: airzy91
-    url: https://github.com/airzy91
-    desc: Fork me on GitHub
-    share: false
-
-  - name: StackOverflow
-    icon: stack-overflow
-    username: aaron-bamford
-    url: http://stackoverflow.com/users/5242568/aaron-bamford
-    desc: Find me on StackOverflow
-    share: false
-
-# Social sharing protocols
-# These are for automatically generating sharing metadata for FB and Twitter
-# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
-protocols:
-    fb_image: "https://www.gravatar.com/avatar/d16b6ce802585bf42f4797768d81b335?s=200"
-    fb_image_width: 605
-    fb_image_height: 605
-    fb_image_type: "image/jpeg"
-
-    twitter_image: "https://www.gravatar.com/avatar/d16b6ce802585bf42f4797768d81b335"
-
-    os_repo: "https://github.com/bencentra/centrarium.com"
-    os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+jekyll-mentions:
+    base_url: https://github.com
